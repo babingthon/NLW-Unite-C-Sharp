@@ -10,3 +10,16 @@ C:\Users\Babingthon\Desktop\PassIn\PassIn.Infrastructure\obj\Debug\net8.0\refint
 C:\Users\Babingthon\Desktop\PassIn\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.pdb
 C:\Users\Babingthon\Desktop\PassIn\PassIn.Infrastructure\obj\Debug\net8.0\ref\PassIn.Infrastructure.dll
 C:\Users\Babingthon\Desktop\PassIn\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.csproj.AssemblyReference.cache
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\bin\Debug\net8.0\PassIn.Infrastructure.deps.json
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\bin\Debug\net8.0\PassIn.Infrastructure.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\bin\Debug\net8.0\PassIn.Infrastructure.pdb
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.csproj.AssemblyReference.cache
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.AssemblyInfoInputs.cache
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.AssemblyInfo.cs
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.csproj.CoreCompileInputs.cache
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.sourcelink.json
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\refint\PassIn.Infrastructure.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.pdb
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Infrastructure\obj\Debug\net8.0\ref\PassIn.Infrastructure.dll

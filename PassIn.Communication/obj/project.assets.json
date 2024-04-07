@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Communication\\PassIn.Communication.csproj",
+      "projectUniqueName": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Communication\\PassIn.Communication.csproj",
       "projectName": "PassIn.Communication",
-      "projectPath": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Communication\\PassIn.Communication.csproj",
+      "projectPath": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Communication\\PassIn.Communication.csproj",
       "packagesPath": "C:\\Users\\Babingthon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Communication\\obj\\",
+      "outputPath": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Communication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

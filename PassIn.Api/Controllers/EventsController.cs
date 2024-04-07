@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using PassIn.Api.UseCases.Events.GetById;
 using PassIn.Api.UseCases.Events.Register;
+using PassIn.Api.UseCases.Events.RegisterAttendee;
 using PassIn.Communication.Requests;
 using PassIn.Communication.Responses;
 using PassIn.Exceptions;
@@ -14,28 +15,15 @@ namespace PassIn.Api.Controllers;
 public class EventsController : ControllerBase
 {
     [HttpPost]
-    [ProducesResponseType(typeof(ResponseRegisteredEventJson), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ResponseRegisteredJson), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
     public IActionResult Register([FromBody] RequestEventJson request)
     {
+        var UseCase = new RegisterEventUseCase();
 
-        try
-        {
-            var UseCase = new RegisterEventUseCase();
+        var response = UseCase.Execute(request);
 
-            var response = UseCase.Execute(request);
-
-            return Created(string.Empty, response);
-        }
-        catch (PassInException ex)
-        {
-            return BadRequest(new ResponseErrorJson(ex.Message));
-        }
-        catch
-        {
-            return StatusCode(StatusCodes.Status500InternalServerError, new ResponseErrorJson("Unkwown error."));
-        } 
-   
+        return Created(string.Empty, response);
     }
 
     [HttpGet]
@@ -44,22 +32,25 @@ public class EventsController : ControllerBase
     [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
     public IActionResult GetById([FromRoute] Guid id)
     {
-        try
-        {
-            var useCase = new GetEventByIdUseCase();
+        var useCase = new GetEventByIdUseCase();
 
-            var response = useCase.Execute(id);
+        var response = useCase.Execute(id);
 
-            return Ok(response);
-        }
-        catch (PassInException ex)
-        {
-            return NotFound(new ResponseErrorJson(ex.Message));
-        }
-        catch
-        {
-            return StatusCode(StatusCodes.Status500InternalServerError, new ResponseErrorJson("Unkwown error."));
-        }
+        return Ok(response);
+    }
 
+    [HttpPost]
+    [Route("{idEvent}/register")]
+    [ProducesResponseType(typeof(ResponseEventJson), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status409Conflict)]
+    public IActionResult Register([FromRoute] Guid idEvent, [FromBody] RequestRegisterEventJson request)
+    {
+        var useCase = new RegisterAttendeeOnEventUseCase();
+
+        var response = useCase.Execute(idEvent, request);
+
+        return Created(string.Empty, response);
     }
 }

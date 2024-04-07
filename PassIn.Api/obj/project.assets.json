@@ -1680,11 +1680,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Api\\PassIn.Api.csproj",
+      "projectUniqueName": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Api\\PassIn.Api.csproj",
       "projectName": "PassIn.Api",
-      "projectPath": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Api\\PassIn.Api.csproj",
+      "projectPath": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Api\\PassIn.Api.csproj",
       "packagesPath": "C:\\Users\\Babingthon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Api\\obj\\",
+      "outputPath": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1705,14 +1705,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Application\\PassIn.Application.csproj": {
-              "projectPath": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Application\\PassIn.Application.csproj"
+            "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Application\\PassIn.Application.csproj": {
+              "projectPath": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Application\\PassIn.Application.csproj"
             },
-            "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Communication\\PassIn.Communication.csproj": {
-              "projectPath": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Communication\\PassIn.Communication.csproj"
+            "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Communication\\PassIn.Communication.csproj": {
+              "projectPath": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Communication\\PassIn.Communication.csproj"
             },
-            "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Exceptions\\PassIn.Exceptions.csproj": {
-              "projectPath": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Exceptions\\PassIn.Exceptions.csproj"
+            "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Exceptions\\PassIn.Exceptions.csproj": {
+              "projectPath": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Exceptions\\PassIn.Exceptions.csproj"
             }
           }
         }

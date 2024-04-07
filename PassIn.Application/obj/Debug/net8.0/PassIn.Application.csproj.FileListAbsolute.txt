@@ -17,3 +17,23 @@ C:\Users\Babingthon\Desktop\PassIn\PassIn.Application\obj\Debug\net8.0\PassIn.Ap
 C:\Users\Babingthon\Desktop\PassIn\PassIn.Application\obj\Debug\net8.0\refint\PassIn.Application.dll
 C:\Users\Babingthon\Desktop\PassIn\PassIn.Application\obj\Debug\net8.0\PassIn.Application.pdb
 C:\Users\Babingthon\Desktop\PassIn\PassIn.Application\obj\Debug\net8.0\ref\PassIn.Application.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Application.deps.json
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Application.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Application.pdb
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Communication.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Exceptions.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Infrastructure.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Communication.pdb
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Exceptions.pdb
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\bin\Debug\net8.0\PassIn.Infrastructure.pdb
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.csproj.AssemblyReference.cache
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.GeneratedMSBuildEditorConfig.editorconfig
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.AssemblyInfoInputs.cache
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.AssemblyInfo.cs
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.csproj.CoreCompileInputs.cache
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.sourcelink.json
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.csproj.CopyComplete
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\refint\PassIn.Application.dll
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\PassIn.Application.pdb
+H:\GitHub\NLW Unite - Trilha C#\PassIn.Application\obj\Debug\net8.0\ref\PassIn.Application.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TKAhW8E/UWnWtPYcaYANX8x5gKO/NsCWTg0U0rbrTv47UoHxgMFEo5sEZl/TH73C/6QcNGgw7lVUbAL7+VkmAg==",
+  "dgSpecHash": "YYmP9HfH9ZEhc7YhkO7aUzMknMLdFFxpWN03ZaU2qtzzosOKulS3ExVr3Gu6LtbdxIGsZnqjVvW3Gd0QquihhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Babingthon\\Desktop\\PassIn\\PassIn.Application\\PassIn.Application.csproj",
+  "projectFilePath": "H:\\GitHub\\NLW Unite - Trilha C#\\PassIn.Application\\PassIn.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Babingthon\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.3\\microsoft.data.sqlite.core.8.0.3.nupkg.sha512",
     "C:\\Users\\Babingthon\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.3\\microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
