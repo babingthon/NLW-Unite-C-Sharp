@@ -27,14 +27,14 @@ public class EventsController : ControllerBase
     }
 
     [HttpGet]
-    [Route("{id}")]
+    [Route("{eventId}")]
     [ProducesResponseType(typeof(ResponseEventJson), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
-    public IActionResult GetById([FromRoute] Guid id)
+    public IActionResult GetById([FromRoute] Guid eventId)
     {
         var useCase = new GetEventByIdUseCase();
 
-        var response = useCase.Execute(id);
+        var response = useCase.Execute(eventId);
 
         return Ok(response);
     }
